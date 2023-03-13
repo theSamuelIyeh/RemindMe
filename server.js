@@ -13,7 +13,8 @@
 const token = process.env.WHATSAPP_TOKEN;
 
 // Imports dependencies and set up http server
-  const express = require("express"),
+  const request = require("request"), 
+  express = require("express"),
   body_parser = require("body-parser"),
   axios = require("axios").default,
   app = express().use(body_parser.json()); // creates express http server
