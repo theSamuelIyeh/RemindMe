@@ -4,8 +4,7 @@
   "description": "Simple app that reminds users through whatsapp",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "devStart": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "theSamuelIyeh",
   "license": "ISC",
